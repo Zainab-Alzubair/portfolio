@@ -139,3 +139,55 @@ body {
 .check:checked ~ .menu > div > .list-item > li > a:hover {
   color: #ff6b00;
 }
+
+/* headline section */
+.main {
+  padding-left: 50px;
+  padding-top: 80px;
+  background-color: #3c3a39;
+  height: 0;
+}
+
+.main > h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: #ff6b00;
+}
+
+.main > h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.main > p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+}
+
+/* social media icons */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
