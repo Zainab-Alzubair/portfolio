@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1c1a19;
+  background-image: url("img/header.png");
+  background-repeat: no-repeat;
+  background-position: bottom 2px right -20px;
+  background-size: 150px;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  float: left;
+  padding-left: 50px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.check {
+  display: flex;
+  z-index: 2;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  cursor: pointer;
+  opacity: 0;
+  justify-content: flex-end;
+}
+
+.nav-toggler {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  padding: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* homburger icon */
+.nav-toggler > div {
+  float: right;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: white;
+  height: 2px;
+  width: 60%;
+  transition: all  0.4s ease;
+}
+
+.nav-toggler > div::before,
+.nav-toggler > div::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  background: white;
+  width: 100%;
+  height: 2px;
+  transition: all  0.4s ease;
+}
+
+.nav-toggler > div::after {
+  top: 10px;
+}
+
+.check:checked + .nav-toggler > div {
+  background: white;
+}
+
+.check:checked + .nav-toggler > div::before {
+  top: 0;
+  background: white;
+}
+
+.check:checked + .nav-toggler > div::after {
+  top: 0;
+  background: white;
+}
+
+.menu {
+  background-color: #3c3a39;
+  width: 0%;
+  height: 100vh;
+  float: right;
+  transition: all 0.6s ease;
+}
+
+.check:checked ~ .menu {
+  width: 40%;
+  float: right;
+}
+
+/* list style */
+.menu > div > .list-item {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 80px;
+  padding-left: 10px;
+  visibility: hidden;
+}
+
+.menu > div > .list-item > li {
+  list-style: none;
+  padding-top: 30px;
+  color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.menu > div > .list-item > li > a {
+  color: #fff5e1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* menue visbilty when checked */
+.check:checked ~ .menu > div > .list-item {
+  transition: visibility 0.4s ease;
+  transition-delay: 0.1s;
+  visibility: visible;
+}
+
+.check:checked ~ .menu > div > .list-item > li > a:hover {
+  color: #ff6b00;
+}
