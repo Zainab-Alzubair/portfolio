@@ -21,7 +21,18 @@ body {
   float: left;
   padding-left: 50px;
   color: #fff;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .check {
