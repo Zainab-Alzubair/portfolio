@@ -4,13 +4,10 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
-  background-color: #1c1a19;
-  background-image: url("img/header.png");
-  background-repeat: no-repeat;
-  background-position: bottom 2px right -20px;
-  background-size: 150px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -22,6 +19,9 @@ body {
   padding-left: 50px;
   color: #fff;
   padding-top: 20px;
+  background-color: #3c3a39;
+  width: 100%;
+  height: 40px;
 }
 
 a:link {
@@ -153,10 +153,17 @@ a:visited {
 
 /* headline section */
 .main {
+  display: flex;
+  flex-direction: column;
   padding-left: 50px;
   padding-top: 80px;
-  background-color: #3c3a39;
-  height: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #1c1a19;
+  background-image: url("img/header.png");
+  background-repeat: no-repeat;
+  background-position: bottom 2px right -20px;
+  background-size: 150px;
 }
 
 .main > h1 {
@@ -169,6 +176,9 @@ a:visited {
   padding-top: 80px;
   padding-bottom: 40px;
   color: #ff6b00;
+
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .main > h3 {
