@@ -15,7 +15,8 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
-  float: left;
+
+  /* float: left; */
   padding-left: 50px;
   color: #fff;
   padding-top: 20px;
@@ -62,7 +63,7 @@ a:visited {
 
 /* homburger icon */
 .nav-toggler > div {
-  float: right;
+  /* float: right; */
   position: relative;
   top: 0;
   left: 0;
@@ -111,7 +112,8 @@ a:visited {
 
 .check:checked ~ .menu {
   width: 40%;
-  float: right;
+
+  /* float: right; */
 }
 
 /* list style */
@@ -248,7 +250,8 @@ hr {
   gap: 10px;
   justify-content: center;
   justify-items: center;
-  height: 100vh;
+
+  /* height: 100vh; */
 }
 
 .flex-container {
