@@ -159,7 +159,6 @@ a:visited {
   flex-direction: column;
   padding-left: 50px;
   padding-top: 80px;
-  height: 100vh;
   width: 100%;
   background-color: #1c1a19;
   background-image: url("img/header.png");
@@ -255,8 +254,9 @@ hr {
 }
 
 .first-card-grid-item {
-  height: 90vh;
-  width: 50%;
+  /* height: 90vh; */
+
+  /* width: 50%; */
   justify-items: center;
 }
 
@@ -267,13 +267,19 @@ hr {
   justify-items: center;
 }
 
+.middle {
+  margin: 0;
+  padding: 0;
+}
+
 .grid-item {
   background-image: url("img/cards-Placeholder.png");
   background-repeat: no-repeat;
   backdrop-filter: 0.5px;
   background-size: cover;
-  height: 400px;
-  width: 70%;
+
+  /* height: 250px; */
+  width: 90%;
   justify-items: center;
   margin-top: 30px;
 }
@@ -299,12 +305,15 @@ hr {
 .first-card-flex-item > p {
   font-family: 'Inter', sans-serif;
   font-weight: 400px;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 27px;
   color: #091e42;
   padding-bottom: 30px;
-  text-align: start;
-  width: 250px;
+  font-style: normal;
+  width: 355px;
+}
+
+.first-card-flex-item > img {
+  height: 237px;
 }
 
 .lang-card1 {
@@ -323,6 +332,7 @@ hr {
 .flex-item > p {
   color: #fff;
   font-family: 'Inter', sans-serif;
+  padding-bottom: 10px;
 }
 
 .card1-btn {
@@ -350,7 +360,7 @@ hr {
 .projects-btn {
   margin-right: -20px;
   margin-left: -20px;
-  margin-top: 130px;
+  margin-top: 20px;
   height: 40px;
   color: #fff;
   font-family: 'Inter', sans-serif;
