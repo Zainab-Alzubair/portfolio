@@ -178,11 +178,7 @@ a:visited {
   padding-top: 80px;
   padding-bottom: 40px;
   color: #ff6b00;
-
-  /* display: flex;
-  flex-direction: column; */
-
-  /* max-width:90px */
+  margin-right: 40px;
 }
 
 .main > h3 {
@@ -205,8 +201,7 @@ a:visited {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
-
-  /* max-width:90px */
+  max-width: 80%;
 }
 
 /* social media icons */
@@ -260,10 +255,9 @@ hr {
 }
 
 .first-card-grid-item {
-  height: 100vh;
+  height: 90vh;
   width: 50%;
   justify-items: center;
-  margin-bottom: 40px;
 }
 
 .first-card-flex-item {
@@ -306,10 +300,11 @@ hr {
   font-family: 'Inter', sans-serif;
   font-weight: 400px;
   font-size: 28px;
-  line-height: 25px;
+  line-height: 28px;
   color: #091e42;
   padding-bottom: 30px;
   text-align: start;
+  width: 250px;
 }
 
 .lang-card1 {
@@ -341,6 +336,17 @@ hr {
   border: none;
 }
 
+.card1-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.card1-btn:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
 .projects-btn {
   margin-right: -20px;
   margin-left: -20px;
@@ -354,6 +360,12 @@ hr {
   border: none;
 }
 
+.projects-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
 .lang-cards {
   display: flex;
   flex-direction: row;
@@ -361,4 +373,105 @@ hr {
   padding: 5px 7px;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: #1c1a19;
+  color: #f4f5f7;
+  background-image: url("img/about-me-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right 270px;
+  background-size: 90px;
+}
+
+.about-me > h1 {
+  color: #ff6b00;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.about-me > h3 {
+  color: white;
+  padding-bottom: 5px;
+  width: 327px;
+  text-align: center;
+
+  /* Theme 3 / Body Reguler 2 */
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.introduction {
+  color: white;
+  padding-bottom: 30px;
+  width: 327px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about-me > button {
+  color: #f4f5f7;
+  background-color: #ff6b00;
+  border: none;
+  align-items: left;
+  text-align: center;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 50px;
+}
+
+.about-me > button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.line {
+  margin-top: 50px;
+  border: 1px solid #fff;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  align-items: center;
+  gap: 5px;
+  color: #fff;
+}
+
+.about-me-list {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+  margin-bottom: 40px;
 }
