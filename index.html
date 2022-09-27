@@ -202,10 +202,10 @@
   <section id="contact-form">
     <h2>I'm always interested in hearing about new projects,
       so if you'd like to chat please get in touch.</h2>
-    <form action="" method="post">
-      <input type="text" id="name" name="user-name" placeholder="Full name" />
-      <input type="email" id="email" name="user-email" placeholder="Email address">
-      <textarea name="user-msg" id="msg" placeholder="Enter text here"></textarea>
+    <form action="https://formspree.io/f/xknerekk" method="post">
+      <input type="text" id="name" name="user-name" placeholder="Full name" maxlength="30"required/>
+      <input type="email" id="email" name="user-email" placeholder="Email address" required>
+      <textarea name="user-msg" id="msg" placeholder="Enter text here" maxlength="500" required></textarea>
       <button type="submit" id="cf-btn">Get in touch</button>
     </form>
   </section>
