@@ -126,6 +126,13 @@ a:visited {
   visibility: hidden;
 }
 
+.social-icon-f li {
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
 .menu > div > .list-item > li {
   list-style: none;
   padding-top: 30px;
@@ -155,7 +162,6 @@ a:visited {
 
 /* headline section */
 .main {
-  /* display: none; */
   display: flex;
   flex-direction: column;
   padding-left: 50px;
@@ -190,9 +196,6 @@ a:visited {
   display: flex;
   align-items: center;
   color: #fff5e1;
-
-
-  /* max-width:90px */
 }
 
 .main > p {
@@ -246,8 +249,6 @@ hr {
   gap: 10px;
   justify-content: center;
   justify-items: center;
-
-  /* height: 100vh; */
 }
 
 .flex-container {
@@ -256,9 +257,6 @@ hr {
 }
 
 .first-card-grid-item {
-  /* height: 90vh; */
-
-  /* width: 50%; */
   justify-items: center;
 }
 
@@ -270,7 +268,6 @@ hr {
 }
 
 .middle {
-  display: none;
   margin: 0;
   padding: 0;
 }
@@ -280,8 +277,6 @@ hr {
   background-repeat: no-repeat;
   backdrop-filter: 0.5px;
   background-size: cover;
-
-  /* height: 250px; */
   width: 90%;
   justify-items: center;
   margin-top: 30px;
@@ -318,12 +313,13 @@ hr {
 .first-card-flex-item > img {
   height: 237px;
 }
-.li-cards{
+
+.li-cards {
   list-style: none;
   display: flex;
   gap: 10px;
-  
 }
+
 .lang-card1 {
   border: 1px solid #212121;
   margin-top: 10px;
@@ -394,8 +390,7 @@ hr {
 }
 
 .about-me {
-  display: none;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -506,7 +501,7 @@ hr {
 #contact-form h2 {
   font-family: 'Inter', sans-serif;
   font-size: 32px;
-  color: rgb(23, 43,77);
+  color: rgb(23, 43, 77);
   line-height: 44px;
   text-align: center;
   font-weight: 700;
@@ -531,10 +526,10 @@ form {
   letter-spacing: 1px;
   font-weight: 500;
   padding: 15px;
-  border: none;
   margin: 0 auto;
   border: 1px solid #f55800;
 }
+
 #cf-btn:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -553,12 +548,12 @@ textarea {
   font-family: 'Inter', sans-serif;
   padding: 15px 16px;
   border: none;
-  background-color: rgb(251, 248,247);
+  background-color: rgb(251, 248, 247);
   min-height: 6em;
 }
 
 ::placeholder {
-  font-size: 15px
+  font-size: 15px;
 }
 
 footer {
@@ -572,13 +567,4 @@ footer {
   list-style: none;
   display: flex;
   height: 72px;
-
 }
-
-.social-icon-f li {
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-}
-
-
