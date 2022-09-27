@@ -190,6 +190,7 @@ a:visited {
   align-items: center;
   color: #fff5e1;
 
+
   /* max-width:90px */
 }
 
@@ -204,7 +205,7 @@ a:visited {
 }
 
 /* social media icons */
-ul {
+.social-icon {
   list-style: none;
   display: flex;
   gap: 10px;
@@ -315,7 +316,12 @@ hr {
 .first-card-flex-item > img {
   height: 237px;
 }
-
+.li-cards{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  
+}
 .lang-card1 {
   border: 1px solid #212121;
   margin-top: 10px;
@@ -413,9 +419,6 @@ hr {
   padding-bottom: 5px;
   width: 327px;
   text-align: center;
-
-  /* Theme 3 / Body Reguler 2 */
-
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
