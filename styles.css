@@ -533,6 +533,12 @@ form {
   padding: 15px;
   border: none;
   margin: 0 auto;
+  border: 1px solid #f55800;
+}
+#cf-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 input {
@@ -574,4 +580,5 @@ footer {
   /* justify-content: center; */
   align-items: center;
 }
+
 
