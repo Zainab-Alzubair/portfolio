@@ -126,6 +126,13 @@ a:visited {
   visibility: hidden;
 }
 
+.social-icon-f li {
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+}
+
 .menu > div > .list-item > li {
   list-style: none;
   padding-top: 30px;
@@ -189,8 +196,6 @@ a:visited {
   display: flex;
   align-items: center;
   color: #fff5e1;
-
-  /* max-width:90px */
 }
 
 .main > p {
@@ -204,10 +209,10 @@ a:visited {
 }
 
 /* social media icons */
-ul {
+.social-icon {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .social {
@@ -244,8 +249,6 @@ hr {
   gap: 10px;
   justify-content: center;
   justify-items: center;
-
-  /* height: 100vh; */
 }
 
 .flex-container {
@@ -254,9 +257,6 @@ hr {
 }
 
 .first-card-grid-item {
-  /* height: 90vh; */
-
-  /* width: 50%; */
   justify-items: center;
 }
 
@@ -277,8 +277,6 @@ hr {
   background-repeat: no-repeat;
   backdrop-filter: 0.5px;
   background-size: cover;
-
-  /* height: 250px; */
   width: 90%;
   justify-items: center;
   margin-top: 30px;
@@ -314,6 +312,12 @@ hr {
 
 .first-card-flex-item > img {
   height: 237px;
+}
+
+.li-cards {
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
 
 .lang-card1 {
@@ -413,9 +417,6 @@ hr {
   padding-bottom: 5px;
   width: 327px;
   text-align: center;
-
-  /* Theme 3 / Body Reguler 2 */
-
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -484,4 +485,86 @@ hr {
   color: #fff;
   list-style: none;
   margin-bottom: 40px;
+}
+
+#contact-form {
+  padding: 120px 24px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(219, 216, 215);
+}
+
+#contact-from * {
+  box-sizing: border;
+}
+
+#contact-form h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: rgb(23, 43, 77);
+  line-height: 44px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 58px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+#cf-btn {
+  max-width: fit-content;
+  background-color: rgb(255, 107, 0, 1);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 15px;
+  margin: 0 auto;
+  border: 1px solid #f55800;
+}
+
+#cf-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+  padding: 0 16px;
+  height: 48px;
+  border: 0;
+  border-bottom: 1px solid rgb(219, 216, 215);
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  padding: 15px 16px;
+  border: none;
+  background-color: rgb(251, 248, 247);
+  min-height: 6em;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  height: 72px;
+}
+
+.social-icon-f {
+  list-style: none;
+  display: flex;
+  height: 72px;
 }
