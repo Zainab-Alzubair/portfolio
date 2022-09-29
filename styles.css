@@ -327,12 +327,13 @@ hr {
   padding: 3px;
 }
 
+/**  btn  **/
 .card1-btn {
   width: 100px;
   height: 40px;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 24px;
   background-color: #ff6b00;
   border: none;
@@ -627,11 +628,9 @@ footer {
   .list-item > li > a {
     color: #fff;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
     font-size: 18px;
     text-decoration: none;
   }
-
 
   /* Main section */
   .main {
@@ -667,7 +666,7 @@ footer {
     width: 315px;
     height: 52px;
     padding-left: 110px;
-    font-family: 'Crete Round'sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
