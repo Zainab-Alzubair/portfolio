@@ -632,3 +632,126 @@ footer {
     text-decoration: none;
   }
 }
+
+/* Main section */
+.main {
+  width: 100%;
+  background-color: #1c1a19;
+  background-image: url("img/header.png");
+  background-repeat: no-repeat;
+  background-position: bottom 2px right -20px;
+  background-size: contain;
+  padding: 0;
+  height: 100vh;
+}
+
+.main > .main-header {
+  float: left;
+  padding-left: 130px;
+  position: relative;
+  left: 100px;
+  margin: o;
+  max-width: 100vh;
+}
+
+.about-me > h1 {
+  color: #ff6b00;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.headline > h1 {
+  width: 315px;
+  height: 52px;
+  padding-left: 110px;
+  font-family: 'Crete Round'sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
+.flex-item > h1 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.main > .main-header > h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  padding-top: 150px;
+  padding-bottom: 40px;
+  color: #ff6b00;
+  margin-right: 40px;
+}
+
+.about-me > h3 {
+  color: white;
+  padding-bottom: 5px;
+  width: 327px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main > .main-header > h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 20px;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.flex-item > p {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 10px;
+}
+
+.main > .main-header > p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  max-width: 80%;
+}
+
+/* social media icons */
+.social-icon {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  float: left;
+}
+
+.social {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.soaial-wriper {
+  float: left;
+  padding-left: 50px;
+  position: relative;
+  bottom: 260px;
+}
