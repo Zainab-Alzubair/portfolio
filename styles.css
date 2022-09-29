@@ -631,7 +631,7 @@ footer {
     font-size: 18px;
     text-decoration: none;
   }
-}
+
 
 /* Main section */
 .main {
@@ -952,4 +952,121 @@ hr {
   margin-bottom: 10px;
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
+}
+ /** About me SECTION**/
+ .about-me {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  background-color: #1c1a19;
+  color: #f4f5f7;
+  background-image: url("img/about-me.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: right 80px;
+}
+
+.about-me > .aboutme-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  padding-right: 230px;
+}
+
+.about-me > .aboutme-flex > h1 {
+  float: left;
+  color: #ff6b00;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+
+.about-me > .aboutme-flex > h3 {
+  float: left;
+  color: white;
+  padding-bottom: 5px;
+  width: 327px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.aboutme-flex > .introduction {
+  float: left;
+  color: white;
+  padding-bottom: 30px;
+  width: 327px;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about-me > .aboutme-flex > button {
+  float: left;
+  color: #f4f5f7;
+  background-color: #ff6b00;
+  border: none;
+  align-items: left;
+  text-align: center;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 50px;
+  max-width: fit-content;
+}
+
+.about-me > button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.line {
+  margin-top: 70px;
+  border: 1px solid #fff;
+  width: 100vh;
+  margin-bottom: 80px;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 120px;
+  padding-right: 150px;
+}
+
+.header-grid > .header-flex {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  align-items: left;
+  gap: 5px;
+  color: #fff;
+}
+
+.about-me-list {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  color: #fff;
+  list-style: none;
+  margin-bottom: 40px;
+}
 }
