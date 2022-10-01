@@ -13,27 +13,23 @@
 </head>
 
 <body>
+<!--NAVBAR SECTION-->
   <header class="header">
-    <div class="logo">
-      <a href='#'>John Doe</a>
-    </div>
-    <nav >
-     
-      <div class="nav-toggler">
-        <div></div>
-      </div>
-     
-      
+    <nav>
+        <a href='#'class="logo">John Doe</a>
+          <div class="nav-wrap">
           <ul class="list-item">
             <li><a href='#'>Portfolio</a></li>
             <li><a href='#'>About</a></li>
             <li><a href='#'>Contact</a></li>
             <li><a href='#'><img src="img/Union-nav.png"></a></li>
           </ul>
-      
-    
+        </div>
+          <div class="menu-btn"><img id="humberger" src="./img/humberger.png">
     </nav>
   </header>
+
+  <!--MAIN SECTION-->
   <section class="main">
     <div class="main-header">
     <h1>Hey There.<br>I’m Alex</h1>
@@ -41,7 +37,6 @@
     <p>I can help you build a product , feature or website Look through some of my work and experience!
       If you like what you see and have a project you need coded,
       don’t hestiate to contact me.</p>
-    </div>
     <div class="soaial-wriper">
     <ul class="social-icon">
       <li class="social"><a href="#"><img src="img\github.png"></a></li>
@@ -51,21 +46,23 @@
       <li class="social"><a href="#"><img src="img\medium.png"></a></li>
     </ul>
     </div>
+    </div>
   </section>
 
-  <!--Second section-MY WORK-->
+  <!--Second section-MY WORK
   <section class="middle">
     <div class="headline">
-    <h1 >My recent works</h1>
-    <hr>
+    <h2 >My recent works</h2>
+    <hr class="line1">
     </div>
-           <!--Card 1-->
-        <div class="first-card-grid-item flex-container">
-          <div class="first-card-flex-item">
-              <div class="img-middle">
-            <img src="img\card1-Placeholder.png">
-              </div>
-              <div class="first-flex">
+         
+        <div class="first-card-wrap">
+
+          <div class="first-card">
+        
+            <img class="img-middle" src="img\card1-Placeholder.png">
+        
+            <div class="first-card-flex">
             <h1>Multi-Post Stories</h1>
             <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
               industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -76,16 +73,21 @@
               <li class="lang-card1">Ruby</li>
             </ul>
             <button class="card1-btn">See Project</button>
-              </div>
+            </div>
+
           </div>
         </div>
-        </div>
         
-    <div class="grid-container">
-      <!--Card 2-->
-      <div class="grid-item1 flex-container">
+
+       
+
+    <div class="projects-container">
+     
+      <div class="grid-item1">
         <div class="flex-item ">
-          <h1>Profesional Art Printing Data</h1>
+          <div class="h-wrapper">
+          <h3>Profesional Art Printing Data</h3>
+          </div>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
             industry's standard</p>
           <ul class="li-cards">
@@ -93,11 +95,11 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn1">See Project</button>
         </div>
+        <button class="projects-btn1">See Project</button>
       </div>
-      <!--Card 3-->
-      <div class="grid-item2 flex-container">
+      
+      <div class="grid-item2 ">
         <div class="flex-item">
           <h1>Profesional Art Printing Data</h1>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -107,11 +109,11 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn">See Project</button>
         </div>
+        <button class="projects-btn">See Project</button>
       </div>
-      <!--Card 4-->
-      <div class="grid-item3 flex-container">
+   
+      <div class="grid-item3">
         <div class="flex-item">
           <h1>Profesional Art Printing Data</h1>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -121,11 +123,11 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn">See Project</button>
         </div>
+        <button class="projects-btn">See Project</button>
       </div>
-      <!--Card 5-->
-      <div class="grid-item1 flex-container">
+     
+      <div class="grid-item1 ">
         <div class="flex-item">
           <h1>Profesional Art Printing Data</h1>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -135,11 +137,11 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn">See Project</button>
         </div>
+        <button class="projects-btn">See Project</button>
       </div>
-      <!--Card 6-->
-      <div class="grid-item2 flex-container">
+      
+      <div class="grid-item2">
         <div class="flex-item">
           <h1>Profesional Art Printing Data</h1>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -149,11 +151,11 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn">See Project</button>
         </div>
+        <button class="projects-btn">See Project</button>
       </div>
-      <!--Card 7-->
-      <div class="grid-item3 flex-container">
+    
+      <div class="grid-item3">
         <div class="flex-item">
           <h1>Profesional Art Printing Data</h1>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
@@ -163,22 +165,175 @@
             <li class="lang-cards">bootstrap</li>
             <li class="lang-cards">Ruby</li>
           </ul>
-          <button class="projects-btn">See Project</button>
         </div>
+        <button class="projects-btn">See Project</button>
+      </div>
+    </div>
+  </div>
+  </section>
+-->
+<section class="middle">
+  <div id="header-wrapper">
+    <h2>My Recent Works</h2>
+    <div id="w-hor-line"></div>
+  </div>
+
+  <div id="main-content">
+
+    <div id="big-post">
+      <img id="bp-image" src="img/card1-Placeholder.png">
+      <div id="bp-content">
+        <h3>Multi-Post Stories</h3>
+        <p>
+          A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+        </p>
+        <ul id="bp-lang-wrapper">
+          <li>css</li>
+          <li>html</li>
+          <li>bootstrap</li>
+          <li>Ruby</li>
+        </ul>
+        <a id="bp-link" href="">
+          <button id="bp-button">See Project</button>
+        </a>
       </div>
     </div>
 
-  </section>
+    <div id="simple-posts-wrapper">
+
+      <div id="simple-post">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button-desktop">See Project</button>
+        </a>
+      </div>
+
+      <div id="simple-post2">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button">See Project</button>
+        </a>
+      </div>
+
+      <div id="simple-post3">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button">See Project</button>
+        </a>
+      </div>
+
+      <div id="simple-post">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button1">See Project</button>
+        </a>
+      </div>
+
+      <div id="simple-post2">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button">See Project</button>
+        </a>
+      </div>
+
+      <div id="simple-post3">
+        <div id="sp-content">
+          <div id="sp-h-wrapper">
+            <h3>Art Printing Data</h3>
+          </div>
+          <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
+          </p>
+          <ul id="sp-lang-wrapper">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+        </div>
+        <a id="sp-link" href="#">
+          <button id="sp-button">See Project</button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!--ABOUT ME SECTION-->
   <section class="about-me">
+
     <div class="aboutme-flex">
-    <h1 class="title">About me</h1>
+    <h2>About me</h2>
     <p class="introduction">Hello I’m a software developer! I can help you build a product ,
       feature or website Look through some of my work and experience! If you like what you see and have a project you
       need coded, don’t hestiate to contact me.</p>
     <button>Get My Resume</button>
     </div>
+
     <hr class="line">
-    <div class="header-grid">
+  </section>
+  <section class="skills-section">
+   
+
     <div class="lang">
     <div class="header-flex">
       <img src="img/Rectangle.png">
@@ -191,6 +346,7 @@
       <li>Css</li>
     </ul>
     </div>
+
     <div class="freams">
     <div class="header-flex">
       <img src="img/square.png">
@@ -204,6 +360,7 @@
       <li>Selenium</li>
     </ul>
     </div>
+
     <div class="skills">
     <div class="header-flex">
       <img src="img/dot.png">
@@ -216,11 +373,13 @@
       <li>Gitlab</li>
       <li>Terminal</li>
     </ul>
-    </div>
+  
     </div>
   </section>
 
+  <!--CONTACT FORM SECTION-->
   <section id="contact-form">
+    <div class="contact-wrap">
     <h2>I'm always interested in hearing about new projects,
       so if you'd like to chat please get in touch.</h2>
     <form action="https://formspree.io/f/xknerekk" method="post">
@@ -229,8 +388,10 @@
       <textarea name="user-msg" id="msg" placeholder="Enter text here" maxlength="500" required></textarea>
       <button type="submit" id="cf-btn">Get in touch</button>
     </form>
+    </div>
   </section>
-
+  
+  <!--FOOTER SECTION-->
   <footer>
     <ul class="social-icon-f">
       <li class="social"><a href="#"><img src="img\github-d.svg"></a></li>
