@@ -12,12 +12,13 @@
     </style>
 </head>
 
+
 <body>
 <!--NAVBAR SECTION-->
   <header class="header">
     <nav>
         <a href='#'class="logo">John Doe</a>
-          <div class="nav-wrap">
+          <div class="nav-bar">
           <ul class="list-item">
             <li><a href='#'>Portfolio</a></li>
             <li><a href='#'>About</a></li>
@@ -25,7 +26,7 @@
             <li><a href='#'><img src="img/Union-nav.png"></a></li>
           </ul>
         </div>
-          <div class="menu-btn"><img id="humberger" src="./img/humberger.png">
+          <div class="menu-toggle"><img class="mobile-nav" src="./img/humberger.png">
     </nav>
   </header>
 
@@ -37,7 +38,7 @@
     <p>I can help you build a product , feature or website Look through some of my work and experience!
       If you like what you see and have a project you need coded,
       don’t hestiate to contact me.</p>
-    <div class="soaial-wriper">
+    <div class="social-container">
     <ul class="social-icon">
       <li class="social"><a href="#"><img src="img\github.png"></a></li>
       <li class="social"><a href="#"><img src="img\linkedin.png"></a></li>
@@ -48,271 +49,135 @@
     </div>
     </div>
   </section>
-
-  <!--Second section-MY WORK
-  <section class="middle">
-    <div class="headline">
-    <h2 >My recent works</h2>
-    <hr class="line1">
-    </div>
-         
-        <div class="first-card-wrap">
-
-          <div class="first-card">
-        
-            <img class="img-middle" src="img\card1-Placeholder.png">
-        
-            <div class="first-card-flex">
-            <h1>Multi-Post Stories</h1>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="li-cards">
-              <li class="lang-card1">css</li>
-              <li class="lang-card1">html</li>
-              <li class="lang-card1">bootstrap</li>
-              <li class="lang-card1">Ruby</li>
-            </ul>
-            <button class="card1-btn">See Project</button>
-            </div>
-
-          </div>
-        </div>
-        
-
-       
-
-    <div class="projects-container">
-     
-      <div class="grid-item1">
-        <div class="flex-item ">
-          <div class="h-wrapper">
-          <h3>Profesional Art Printing Data</h3>
-          </div>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn1">See Project</button>
-      </div>
-      
-      <div class="grid-item2 ">
-        <div class="flex-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn">See Project</button>
-      </div>
-   
-      <div class="grid-item3">
-        <div class="flex-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn">See Project</button>
-      </div>
-     
-      <div class="grid-item1 ">
-        <div class="flex-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn">See Project</button>
-      </div>
-      
-      <div class="grid-item2">
-        <div class="flex-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn">See Project</button>
-      </div>
-    
-      <div class="grid-item3">
-        <div class="flex-item">
-          <h1>Profesional Art Printing Data</h1>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-            industry's standard</p>
-          <ul class="li-cards">
-            <li class="lang-cards">html</li>
-            <li class="lang-cards">bootstrap</li>
-            <li class="lang-cards">Ruby</li>
-          </ul>
-        </div>
-        <button class="projects-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-  </section>
--->
+<!--WORKS SECTION-->
 <section class="middle">
-  <div id="header-wrapper">
+  <div class="header-container">
     <h2>My Recent Works</h2>
-    <div id="w-hor-line"></div>
+    <div class="first-line"></div>
   </div>
 
-  <div id="main-content">
+  <div class="main-content">
 
-    <div id="big-post">
-      <img id="bp-image" src="img/card1-Placeholder.png">
-      <div id="bp-content">
+    <div class="featured-post">
+      <img class="featured-img" src="img/card1-Placeholder.png">
+      <div class="featured-content">
         <h3>Multi-Post Stories</h3>
         <p>
           A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
         </p>
-        <ul id="bp-lang-wrapper">
+        <ul class="lang-list">
           <li>css</li>
           <li>html</li>
           <li>bootstrap</li>
           <li>Ruby</li>
         </ul>
-        <a id="bp-link" href="">
-          <button id="bp-button">See Project</button>
-        </a>
+        <a href="#"> <button class="featured-btn">See Project</button></a>
+         
       </div>
     </div>
 
-    <div id="simple-posts-wrapper">
+    <div class="cards-container">
 
-      <div id="simple-post">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="first-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button-desktop">See Project</button>
-        </a>
+          <button class="card-btn-desktop">See Project</button>
       </div>
 
-      <div id="simple-post2">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="second-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button">See Project</button>
-        </a>
+          <button class="card-btn">See Project</button>
       </div>
 
-      <div id="simple-post3">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="third-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button">See Project</button>
-        </a>
+          <button class="card-btn">See Project</button>
       </div>
 
-      <div id="simple-post">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="first-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button1">See Project</button>
-        </a>
+          <button class="card-btn1">See Project</button>
       </div>
 
-      <div id="simple-post2">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="second-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button">See Project</button>
-        </a>
+          <button class="card-btn">See Project</button>
       </div>
 
-      <div id="simple-post3">
-        <div id="sp-content">
-          <div id="sp-h-wrapper">
+      <div class="third-card">
+        <div class="card-content">
+          <div class="card-headline">
             <h3>Art Printing Data</h3>
           </div>
           <p>
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
           </p>
-          <ul id="sp-lang-wrapper">
+          <ul class="card-list">
             <li>html</li>
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
         </div>
-        <a id="sp-link" href="#">
-          <button id="sp-button">See Project</button>
-        </a>
+          <button class="card-btn">See Project</button>
       </div>
 
     </div>
