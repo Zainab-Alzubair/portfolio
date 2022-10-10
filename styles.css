@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-  height: 8vh;
+  height: 9vh;
   width: 100vw;
   font-size: 17px;
   display: flex;
@@ -71,19 +71,59 @@ a:visited {
   text-decoration: none;
 }
 
-.menu-toggle {
+.menu-button {
   width: 40px;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2%;
-  cursor: pointer;
   color: #f4f5f7;
 }
 
+#nav-wrap {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(60, 58, 57);
+  position: fixed;
+  top: 0;
+  left: 100%;
+  padding: 9%;
+  z-index: 11;
+  transition: 0.3s;
+}
+
+#close-button {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+
+#close-button img {
+  height: 50px;
+}
+
+#nav-m-wrap {
+  position: absolute;
+  top: 15%;
+  width: 82%;
+}
+
+#nav-m-wrap a {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  border-bottom: 1px solid rgb(111, 108, 107);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+}
+
 @media (min-width: 769px) {
-  .menu-toggle {
+  .menu-button {
     display: none;
   }
 }
@@ -139,11 +179,6 @@ a:visited {
   }
 }
 
-.middle > h3 {
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-}
-
 .main > .main-header > h3 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -154,6 +189,11 @@ a:visited {
   align-items: center;
   color: #fff5e1;
   color: #fff;
+}
+
+#middle > h3 {
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
 }
 
 .flex-item > p {
@@ -202,7 +242,7 @@ a:visited {
   }
 }
 
-.middle {
+#middle {
   /* display: none; */
   display: flex;
   padding: 120px 7%;
@@ -214,7 +254,7 @@ a:visited {
 }
 
 @media (min-width: 769px) {
-  .middle {
+  #middle {
     padding: 120px 9%;
   }
 }
@@ -232,7 +272,7 @@ a:visited {
   }
 }
 
-.middle .header-container {
+#middle .header-container {
   height: 100px;
   width: 100%;
   margin-bottom: 80px;
@@ -243,7 +283,7 @@ a:visited {
 }
 
 @media (min-width: 769px) {
-  .middle .header-container {
+  #middle .header-container {
     display: grid;
     gap: 24px;
     grid-template-columns: min-content 1fr;
@@ -558,7 +598,7 @@ a:visited {
 }
 
 /**  ABOUT ME SECTION  **/
-.about-me {
+#about-me {
   height: 90vh;
   padding: 120px 9%;
   color: white;
@@ -571,7 +611,7 @@ a:visited {
 }
 
 @media (min-width: 769px) {
-  .about-me {
+  #about-me {
     background-image: url("img/about-me.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -580,7 +620,7 @@ a:visited {
 }
 
 @media (min-width: 800px) {
-  .about-me {
+  #about-me {
     max-height: 600px;
     background-size: 30%;
   }
@@ -629,7 +669,7 @@ a:visited {
   max-width: fit-content;
 }
 
-.about-me > button:hover {
+#about-me > button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;

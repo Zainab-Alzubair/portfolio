@@ -26,10 +26,17 @@
             <li><a href='#'><img src="img/Union-nav.png"></a></li>
           </ul>
         </div>
-          <div class="menu-toggle"><img class="mobile-nav" src="./img/humberger.png">
+        <div class="menu-button"><img id="humberger" src="img/humberger.png" ></div>
     </nav>
   </header>
-
+  <div id="nav-wrap">
+    <div id="close-button"><img src="img/x-icon.svg" alt="X"></div>
+    <div id="nav-m-wrap">
+      <a href="#middle" class="nav-w-btn">Portfolio</a>
+      <a href="#about-me" class="nav-w-btn">About</a>
+      <a href="#contact-form" class="nav-w-btn">Contact</a>
+    </div>
+  </div>
   <!--MAIN SECTION-->
   <section class="main">
     <div class="main-header">
@@ -50,7 +57,7 @@
     </div>
   </section>
 <!--WORKS SECTION-->
-<section class="middle">
+<section id="middle">
   <div class="header-container">
     <h2>My Recent Works</h2>
     <div class="first-line"></div>
@@ -184,7 +191,7 @@
   </div>
 </section>
   <!--ABOUT ME SECTION-->
-  <section class="about-me">
+  <section id="about-me">
 
     <div class="aboutme-flex">
     <h2>About me</h2>
@@ -266,6 +273,7 @@
       <li class="social"><a href="#"><img src="img\medium-d.png"></a></li>
     </ul>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
