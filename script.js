@@ -10,7 +10,7 @@ cross.addEventListener('click', () => {
   document.getElementById('nav-wrap').style.left = '100%';
 });
 
-for (let i = 0; i < navWBtn.length; i + 1) {
+for (let i = 0; i < navWBtn.length; i += 1) {
   navWBtn[i].addEventListener('click', () => {
     document.getElementById('nav-wrap').style.left = '100%';
   });
