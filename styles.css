@@ -59,19 +59,6 @@ nav {
   .nav-bar {
     display: none;
   }
-  .card-img-w{
-    width: 100%;
-    max-width: 100%;
-    min-width: max-content;
-    height: auto;
-
-
-  }
-  .card-img{
-    width: 90%;
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 a:link {
@@ -105,23 +92,20 @@ a:visited {
   z-index: 11;
   transition: 0.3s;
 }
-.card-img-w{
-  width: 100%;
-}
- .card-img{
-  width: -webkit-fill-available;
-} 
+
 .close-button {
   position: absolute;
   top: 2%;
   right: 5%;
 }
+
 @media (min-width: 769px) {
   .close-button {
     top: 20px;
     right: 20px;
   }
 }
+
 .close-button img {
   height: 50px;
 }
@@ -213,10 +197,12 @@ a:visited {
   color: #fff5e1;
   color: #fff;
 }
-#card-title{
+
+#card-title {
   font-family: 'Crete Round', serif;
   font-weight: 400;
 }
+
 #works > h3 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
@@ -231,6 +217,13 @@ a:visited {
 .card-content p {
   font-family: 'Inter', sans-serif;
   font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sp-content p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
@@ -859,6 +852,7 @@ footer {
   display: flex;
   height: 72px;
 }
+
 #simple-posts-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -881,6 +875,7 @@ footer {
 .simple-post:hover {
   transform: scale(1.05);
 }
+
 .sp-content {
   width: 100%;
   padding: 8px 16px;
@@ -888,16 +883,12 @@ footer {
   grid-template-columns: 100%;
   gap: 12px;
 }
-.sp-content p {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
+
 .sp-h-wrapper {
   width: 100%;
   height: 80px;
 }
+
 .sp-lang-wrapper {
   list-style: none;
   display: flex;
@@ -913,6 +904,7 @@ footer {
   line-height: 20px;
   font-weight: 500;
 }
+
 .sp-button {
   background-color: rgb(255, 107, 0, 1);
   color: white;
@@ -946,6 +938,7 @@ footer {
   border: 1px solid rgb(224, 241, 240);
   color: rgb(91, 89, 87);
 }
+
 #popup-wrap {
   transition: all 0.2s ease-in-out;
 }
@@ -1101,11 +1094,6 @@ footer {
   height: 100%;
 }
 
-@media (min-width: 768px) {
-  .card-tb-wrap {
-  }
-}
-
 @media (min-width: 1127px) {
   .card-tb-wrap {
     gap: 24px;
@@ -1114,7 +1102,7 @@ footer {
 
 .card-p {
   font-size: 1rem;
-  line-height: 1.50rem;
+  line-height: 1.5rem;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: rgb(52, 69, 99);

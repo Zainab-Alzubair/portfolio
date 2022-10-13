@@ -23,10 +23,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 {
@@ -35,10 +35,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 {
@@ -47,11 +47,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
-
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 {
@@ -60,10 +59,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 {
@@ -72,10 +71,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 {
@@ -84,10 +83,10 @@ const cards = [{
   description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
   descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
   img: 'img/s-p.png',
-  tech:['html','css','bootstrap'],
+  tech: ['html', 'css', 'bootstrap'],
   btnText: 'See Project',
-  sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
+  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
 },
 
@@ -125,12 +124,12 @@ function displayFeachuredPost() {
     title: 'Real estate test',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     img: 'img/s-p.png',
-    tech:['html','css','bootstrap','javaScript'],
+    tech: ['html', 'css', 'bootstrap', 'javaScript'],
     btnText: 'See Project',
-    sourceURL:"https://github.com/Zainab-Alzubair/portfolio",
-  livePreview:"https://zainab-alzubair.github.io/portfolio.github.io/",
-  }
-  document.getElementById("featured-post").innerHTML =  `
+    sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
+    livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
+  };
+  document.getElementById('featured-post').innerHTML = `
   <img class="featured-img" src="img/card1-Placeholder.png">
   <div class="featured-content">
     <h3 id="card-title">${card1.title}</h3>
@@ -147,22 +146,21 @@ function displayFeachuredPost() {
      
   </div>
 `;
-  
 }
 
 displayFeachuredPost();
 
-// Opening the window 
+// Opening the window
 const btn = document.getElementsByClassName('card-btn-open');
-let popUpWrapper = document.getElementById('pop_up_wrapper');
-let res = '';
+const popUpWrapper = document.getElementById('pop_up_wrapper');
 cards.forEach((card) => {
-for (let i = 0; i< btn.length; i +=1 ) {
-  btn[i].addEventListener('click', () => {
-    if(i == card.id){
-      popUpWrapper.style.display = 'block';
-      res += 
-        `<div class="content-card-wrap">
+  for (let i = 0; i < btn.length; i += 1) {
+    btn[i].addEventListener('click', () => {
+      if (i === card.id) {
+        let res = '';
+        popUpWrapper.style.display = 'block';
+        res
+        += `<div class="content-card-wrap">
          <div class="content-card">
           <div class="close-button card-x"><img src="img/popup-x.svg" alt="X"></div>
           <div class="cc-h-wrap">
@@ -194,20 +192,17 @@ for (let i = 0; i< btn.length; i +=1 ) {
         </div>
         </div>`;
 
-       popUpWrapper.innerHTML = res;
+        popUpWrapper.innerHTML = res;
 
+        // close the card
 
-    // close the card
-
-    const cardX = document.getElementsByClassName('card-x');
-     for(let j = 0; j < cardX.length; j += 1){
-       cardX[j].addEventListener('click', () => {
-       popUpWrapper.style.display = 'none';
-});
-}
-
-    } 
-  });
-}
-
+        const cardX = document.getElementsByClassName('card-x');
+        for (let j = 0; j < cardX.length; j += 1) {
+          cardX[j].addEventListener('click', () => {
+            popUpWrapper.style.display = 'none';
+          });
+        }
+      }
+    });
+  }
 });
