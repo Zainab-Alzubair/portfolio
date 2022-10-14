@@ -22,3 +22,9 @@ msgInput.addEventListener('input', () => {
   sessionObj.message = msgInput.value;
   localStorage.setItem('data', JSON.stringify(sessionObj));
 });
+
+const formValue = localStorage.getItem('data');
+const formValueObj = JSON.parse(formValue);
+document.getElementById('name').value = formValueObj.name;
+document.getElementById('email').value = formValueObj.email;
+document.getElementById('msg').value = formValueObj.message;
