@@ -19,76 +19,42 @@ for (let i = 0; i < navWBtn.length; i += 1) {
 // dynamic preview-cards
 const cards = [{
   id: 0,
-  title: 'Real estate project',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
+  title: 'TO-DO-list App',
+  description: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.",
+  descriptionPopup: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. || Technologies: used CURD operation, JavaScript, jest testing , webpack , ES6 modules",
+  img: 'img/todolist.png',
+  tech: ['html', 'css', 'JavaScript'],
   btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
+  sourceURL: 'https://github.com/Zainab-Alzubair/to-do-list',
+  livePreview: 'https://zainab-alzubair.github.io/to-do-list/dist/',
 
 },
 {
   id: 1,
-  title: 'School Software System',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
+  title: 'Awesome Book',
+  description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list.",
+  descriptionPopup: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list || Technologies: JavaScript, CURD operation , DOM manipulation",
+  img: 'img/book.png',
+  tech: ['html', 'css', 'JavaScript'],
   btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
+  sourceURL: 'https://github.com/Zainab-Alzubair/awesome-books',
+  livePreview: 'https://zainab-alzubair.github.io/awesome-books/',
 
 },
 {
   id: 2,
-  title: 'School Software System',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
+  title: 'Tech Academy',
+  description: "An online website for a Tech academy that show the available courses and the top instructors.",
+  descriptionPopup: "An online website for a Tech academy that show the available courses and the top instructors || created with HTM , CSS , JavaScript",
+  img: 'img/techacademy.png',
+  tech: ['html', 'css', 'JavaScript'],
   btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
+  sourceURL: 'https://github.com/Zainab-Alzubair/tech-academy',
+  livePreview: 'https://zainab-alzubair.github.io/tech-academy/',
 
 },
-{
-  id: 3,
-  title: 'School Software System',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
-  btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
-},
-{
-  id: 4,
-  title: 'School Software System',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
-  btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
 
-},
-{
-  id: 5,
-  title: 'School Software System',
-  description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-  descriptionPopup: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-  img: 'img/s-p.png',
-  tech: ['html', 'css', 'bootstrap'],
-  btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-  livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
-
-},
 
 ];
 
@@ -121,16 +87,16 @@ displayCards();
 
 function displayFeachuredPost() {
   const card1 = {
-    title: 'Real estate test',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    img: 'img/s-p.png',
-    tech: ['html', 'css', 'bootstrap', 'javaScript'],
+    title: 'LeaderBoard App',
+    description: "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external",
+    img: 'img/leaderboard.png',
+    tech: ['html', 'css', 'javaScript', 'API'],
     btnText: 'See Project',
-    sourceURL: 'https://github.com/Zainab-Alzubair/portfolio',
-    livePreview: 'https://zainab-alzubair.github.io/portfolio.github.io/',
+    sourceURL: 'https://github.com/Zainab-Alzubair/leaderboard',
+    livePreview: 'https://zainab-alzubair.github.io/leaderboard/dist/',
   };
   document.getElementById('featured-post').innerHTML = `
-  <img class="featured-img" src="img/card1-Placeholder.png">
+  <img class="featured-img" src="img/leaderboard.png">
   <div class="featured-content">
     <h3 id="card-title">${card1.title}</h3>
     <p>
@@ -142,7 +108,14 @@ function displayFeachuredPost() {
     <li>${card1.tech[2]}</li>
     <li>${card1.tech[3]}</li>
     </ul>
-    <a href="#"> <button class="featured-btn card-btn-open">${card1.btnText}</button></a>
+    <div class="card-b-wrap">
+    <a href= "${card1.livePreview}" class="card-link">
+      <button class="card-button" >See Live <img src="img/ellipse.svg" alt="" ></button>
+    </a>
+    <a href= "${card1.sourceURL}"class="card-link">
+      <button class="card-button">See Source<img src="img/git-btn.svg" alt=""></button>
+    </a>
+  </div>
      
   </div>
 `;
@@ -176,7 +149,7 @@ cards.forEach((card) => {
               <img src="${card.img}" alt="card-preview" class="card-img">
             </div>
             <div class="card-cb-wrap">
-              <p class="card-p">
+              <p class="card-p des">
               ${card.descriptionPopup}
               </p>
               <div class="card-b-wrap">

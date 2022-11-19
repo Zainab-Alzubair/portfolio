@@ -15,7 +15,9 @@ header {
   left: 0;
   z-index: 10;
 }
-
+.des{
+  padding-bottom: 20px;
+}
 nav {
   height: 9vh;
   width: 100vw;
