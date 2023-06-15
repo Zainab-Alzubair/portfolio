@@ -19,42 +19,77 @@ for (let i = 0; i < navWBtn.length; i += 1) {
 // dynamic preview-cards
 const cards = [{
   id: 0,
-  title: 'TO-DO-list App',
-  description: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.",
-  descriptionPopup: "To Do List is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. || Technologies: used CURD operation, JavaScript, jest testing , webpack , ES6 modules",
-  img: 'img/todolist.png',
-  tech: ['html', 'css', 'JavaScript'],
+  title: 'Budget App',
+  description: "A mobile web application where you can manage your budget and you have a list of transactions associated with a category.",
+  descriptionPopup: "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+  img: 'img/budget-app.PNG',
+  tech: ['Ruby on Rails', 'css', 'Bootstrap', 'PostgreSQL', 'API'],
   btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/to-do-list',
-  livePreview: 'https://zainab-alzubair.github.io/to-do-list/dist/',
-
-},
-{
+  sourceURL: 'https://github.com/Zainab-Alzubair/RoR-budget-app',
+  livePreview: 'https://rails-deploying-app.herokuapp.com/splashs',
+  
+  },
+  {
   id: 1,
-  title: 'Awesome Book',
-  description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list.",
-  descriptionPopup: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list || Technologies: JavaScript, CURD operation , DOM manipulation",
-  img: 'img/book.png',
-  tech: ['html', 'css', 'JavaScript'],
+  title: 'Movie App',
+  description: "Movie App is a website to display a list of Movies with the ability to check the details for the selected movie.",
+  descriptionPopup: "Movie App is a website to display a list of Movies with the ability to check the details for the selected movie.Display a list of Movies, Select a movie to view the details, Search in the movie list.",
+  img: 'img/movie.PNG',
+  tech: ['React', 'Redux', 'css', 'JavaScript', 'Webpack', 'Jest'],
   btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/awesome-books',
-  livePreview: 'https://zainab-alzubair.github.io/awesome-books/',
+  sourceURL: 'https://github.com/Zainab-Alzubair/movie-app',
+  livePreview: 'https://stupendous-alpaca-c2a486.netlify.app/',
+  
+  },
+  {
+  id: 2,
+  title: 'Space Traveler App',
+  description: "Space Traveler - The application will allow users to book rockets and join selected space missions.",
+  descriptionPopup: "Space Traveler - The application will allow users to book rockets and join selected space missions.",
+  img: 'img/space.PNG',
+  tech: ['React', 'css', 'JavaScript'],
+  btnText: 'See Project',
+  sourceURL: 'https://github.com/Zainab-Alzubair/space-travelers',
+  livePreview: 'https://aesthetic-cocada-15db6d.netlify.app/',
+  
+  },
+  
+{
+id: 3,
+title: 'LeaderBoard App',
+description: "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external.",
+descriptionPopup: "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external.",
+img: 'img/leaderboard.png',
+tech: ['html', 'css', 'javaScript', 'API'],
+btnText: 'See Project',
+sourceURL: 'https://github.com/Zainab-Alzubair/leaderboard',
+livePreview: 'https://zainab-alzubair.github.io/leaderboard/dist/',
 
 },
 {
-  id: 2,
-  title: 'Tech Academy',
-  description: "An online website for a Tech academy that show the available courses and the top instructors.",
-  descriptionPopup: "An online website for a Tech academy that show the available courses and the top instructors || created with HTM , CSS , JavaScript",
-  img: 'img/techacademy.png',
-  tech: ['html', 'css', 'JavaScript'],
-  btnText: 'See Project',
-  sourceURL: 'https://github.com/Zainab-Alzubair/tech-academy',
-  livePreview: 'https://zainab-alzubair.github.io/tech-academy/',
+id: 4,
+title: 'Awesome Book',
+description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list.",
+descriptionPopup: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list || Technologies: JavaScript, CURD operation , DOM manipulation.",
+img: 'img/book.png',
+tech: ['html', 'css', 'JavaScript'],
+btnText: 'See Project',
+sourceURL: 'https://github.com/Zainab-Alzubair/awesome-books',
+livePreview: 'https://zainab-alzubair.github.io/awesome-books/',
 
 },
+{
+id: 5,
+title: 'Tech Academy',
+description: "An online website for a Tech academy that show the available courses and the top instructors.",
+descriptionPopup: "An online website for a Tech academy that show the available courses and the top instructors || Technologies: HTM , CSS , JavaScript.",
+img: 'img/techacademy.png',
+tech: ['html', 'css', 'JavaScript'],
+btnText: 'See Project',
+sourceURL: 'https://github.com/Zainab-Alzubair/tech-academy',
+livePreview: 'https://zainab-alzubair.github.io/tech-academy/',
 
-
+},
 
 ];
 
@@ -87,16 +122,16 @@ displayCards();
 
 function displayFeachuredPost() {
   const card1 = {
-    title: 'LeaderBoard App',
-    description: "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external",
-    img: 'img/leaderboard.png',
-    tech: ['html', 'css', 'javaScript', 'API'],
+    title: 'World Vision Clinic App',
+    description: "A full-stack project. In which you can register yourself create a doctor, book an appointment with the docotor, see all appiontmnets, delete a doctor(s).",
+    img: 'img/clinic.PNG',
+    tech: ['Rails', 'React', 'PostgreSQL', 'API'],
     btnText: 'See Project',
-    sourceURL: 'https://github.com/Zainab-Alzubair/leaderboard',
-    livePreview: 'https://zainab-alzubair.github.io/leaderboard/dist/',
+    sourceURL: 'https://github.com/Zainab-Alzubair/Book-Appointment-Front-End',
+    livePreview: 'https://world-vision-clinic.netlify.app/',
   };
   document.getElementById('featured-post').innerHTML = `
-  <img class="featured-img" src="img/leaderboard.png">
+  <img class="featured-img" src="img/clinic.PNG">
   <div class="featured-content">
     <h3 id="card-title">${card1.title}</h3>
     <p>
