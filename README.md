@@ -9,7 +9,7 @@ An online portfolio that represents skills, projects, About the person, and cont
 
 ## Built With
 
-- HTML ,CSS
+- HTML ,CSS, JavaScript
 
 
 ## Getting Started
@@ -31,7 +31,7 @@ git clone git@github.com:Zainab-Alzubair/portfolio.git
 
 - GitHub: [@githubhandle](https://github.com/Zainab-Alzubair)
 - Twitter: [@twitterhandle](@zainabm34401029)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zainab-al-zubair-bb6777168/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zainab-al-zubair)
 
 ## 🤝 Contributing
 
